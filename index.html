@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<script src="index.js"></script>
+
+  </head>
+
+  <body>
+  	<!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    Email validator
+  </a>
+</nav>
+
+<br>
+
+<br>
+
+<div class="container">
+<div class="text-center">
+
+	<img src="blue_logo.png" class="img-fluid" alt="Responsive image">
+</div>
+<br>
+
+<div class="row"> 
+<div class="card center" >
+  <div class="card-body">
+    <h3 class="card-title">Email validator</h3>
+    <p class="card-text">Enter your email to validate it.</p>
+      <p style="color:green;  display: none" id='validEmailText'>Email Valid <span class="glyphicon glyphicon-ok"></span></p>    
+      <p style="color:red; display: none"  id="invalidEmailAccountInvalid">Invalid Email <span class="glyphicon glyphicon-remove"></span></p>    
+      <p style="color:red; display: none"  id="invalidEmailDomainInvalid">Invalid Domain <span class="glyphicon glyphicon-remove"></span></p>    
+
+    <input type="email" class="form-control col-6" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+	<br>
+	<button id="submit" type="submit" class="btn btn-primary">Submit</button>
+
+  </div>
+</div>
+</div>
+	<form>
+
+   <style>
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+</style>
